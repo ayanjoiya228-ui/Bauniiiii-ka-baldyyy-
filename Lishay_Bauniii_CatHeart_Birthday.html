@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>For Bauniii — 09.10 🎀</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap');
+:root{--bg:#fff1f6;--pink:#f08fb2;--pink2:#d96898;--cream:#fffafd;--muted:#805f70;--gold:#c77b9b;--ink:#4c3040}
+*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden}
+body{font-family:'DM Sans',sans-serif;background:linear-gradient(180deg,#fff8fb 0%,#ffeef5 48%,#fce1eb 100%);color:var(--ink)}
+#stars{display:none}
+#heartBg{position:fixed;inset:0;overflow:hidden;pointer-events:none;z-index:0;padding:18px 0;opacity:.72}
+.heartRow{height:11.1vh;display:flex;align-items:center;justify-content:space-around;gap:28px;white-space:nowrap}
+.heart{font-family:Arial,sans-serif;font-size:clamp(18px,3vw,34px);opacity:.62;filter:drop-shadow(0 3px 5px rgba(185,70,116,.08));animation:heartFloat 3.8s ease-in-out infinite}
+.heart.a{color:#f3a4bf}.heart.b{color:#db6e9b}
+@keyframes heartFloat{50%{transform:translateY(-5px) scale(1.05);opacity:.82}}
+.page{position:absolute;z-index:2;inset:0;display:flex;align-items:center;justify-content:center;padding:22px;opacity:0;pointer-events:none;transform:translateY(18px) scale(.985);transition:opacity .65s ease,transform .65s ease}
+.page.active{opacity:1;pointer-events:auto;transform:none}
+.panel{width:min(760px,94vw);max-height:92vh;overflow:auto;text-align:center;padding:34px 26px;border:1px solid rgba(255,255,255,.78);border-radius:36px;background:rgba(255,255,255,.72);backdrop-filter:blur(16px);box-shadow:0 28px 80px rgba(183,82,125,.18)}
+.kicker{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:#c45f8b;margin-bottom:15px;font-weight:700}
+h1,h2{font-family:'Cormorant Garamond',serif;margin:0;line-height:.95;color:#4d3040}
+h1{font-size:clamp(62px,14vw,125px);letter-spacing:-.05em}
+h2{font-size:clamp(42px,8vw,70px)}
+.sub{color:#765768;margin:16px auto 26px;max-width:540px;line-height:1.65}
+.btn{border:0;padding:15px 25px 16px 22px;background:linear-gradient(135deg,#f29abc,#d86b9b);color:white;font-weight:800;cursor:pointer;position:relative;overflow:hidden;letter-spacing:.01em;box-shadow:0 12px 28px rgba(206,91,139,.25);border-radius:28px 17px 29px 15px / 18px 29px 16px 27px;transform:rotate(-1deg);transition:transform .28s ease,box-shadow .28s ease,filter .28s ease}.btn:after{content:'♡';position:absolute;right:10px;top:5px;font-size:15px;opacity:.45;transform:rotate(10deg)}.btn:before{content:'';position:absolute;inset:-80% 45% auto -25%;height:190%;width:55%;background:rgba(255,255,255,.3);transform:rotate(24deg);transition:.6s}.btn:hover{transform:rotate(1.5deg) translateY(-5px) scale(1.035);box-shadow:0 18px 38px rgba(206,91,139,.34);filter:saturate(1.08)}.btn:hover:before{left:105%}.btn .arrow{display:inline-block;transition:.3s;margin-left:4px}.btn:hover .arrow{transform:translateX(7px) rotate(-4deg)}.pulse-btn{animation:softPulse 2.2s infinite}@keyframes softPulse{0%,100%{box-shadow:0 12px 28px rgba(206,91,139,.22)}50%{box-shadow:0 15px 42px rgba(242,154,188,.42)}}
+.mini{font-size:12px;color:#9b6f83;margin-top:17px}
+.name{color:#e06f9f;text-shadow:0 10px 30px rgba(224,111,159,.22)}
+
+.sticker-layer{position:absolute;inset:0;pointer-events:none;overflow:hidden;border-radius:36px;z-index:3}
+.cat-sticker{position:absolute;width:clamp(62px,10vw,105px);height:auto;object-fit:contain;filter:drop-shadow(0 9px 10px rgba(100,40,70,.12));opacity:.94;animation:catBob 4.5s ease-in-out infinite}
+.cat-sticker.s1{left:3%;top:5%;transform:rotate(-9deg);animation-delay:-.8s}.cat-sticker.s2{right:3%;top:8%;transform:rotate(8deg);animation-delay:-2s}.cat-sticker.s3{left:5%;bottom:5%;transform:rotate(7deg);animation-delay:-1.4s}.cat-sticker.s4{right:4%;bottom:5%;transform:rotate(-7deg);animation-delay:-3s}
+@keyframes catBob{50%{margin-top:-7px;transform:rotate(0deg) scale(1.04)}}
+@media(max-width:600px){.cat-sticker{width:65px}.cat-sticker.s1{left:1%;top:2%}.cat-sticker.s2{right:1%;top:4%}.cat-sticker.s3{left:2%;bottom:2%}.cat-sticker.s4{right:2%;bottom:2%}}
+/* cake */
+.cake-area{height:330px;display:flex;align-items:center;justify-content:center;position:relative}
+.cake{position:relative;width:250px;height:190px;margin-top:70px}
+.plate{position:absolute;bottom:0;left:10px;width:230px;height:23px;border-radius:50%;background:#e9d5df;box-shadow:0 8px 20px #0005}
+.tier{position:absolute;left:20px;width:210px;border-radius:18px 18px 12px 12px;background:linear-gradient(#f6c5d2,#d985a5);box-shadow:inset 0 -10px 0 rgba(120,45,80,.13),0 12px 20px #0003}
+.bottom{bottom:22px;height:78px}.middle{bottom:86px;left:38px;width:174px;height:58px}.top{bottom:133px;left:57px;width:136px;height:48px}
+.icing{position:absolute;top:-7px;left:0;width:100%;height:19px;background:#fff4e9;border-radius:50%}
+.drip{position:absolute;top:7px;width:18px;height:25px;background:#fff4e9;border-radius:0 0 12px 12px}
+.d1{left:28px}.d2{left:92px;height:31px}.d3{right:30px}
+.berry{position:absolute;width:16px;height:16px;background:#9e4260;border-radius:50%;top:-18px;box-shadow:inset 4px 3px 0 #fff6}
+.b1{left:32px}.b2{right:28px}.b3{left:50%;transform:translateX(-50%);top:-20px}
+.candle{position:absolute;bottom:172px;width:13px;height:57px;border-radius:7px;background:repeating-linear-gradient(135deg,#fff1e6 0 7px,#d98aa5 7px 13px);z-index:3}
+.c1{left:75px}.c2{left:119px;bottom:180px}.c3{left:164px}
+.flame{position:absolute;width:19px;height:29px;left:-3px;top:-29px;border-radius:55% 45% 60% 40%;background:radial-gradient(circle at 50% 72%,#fff8c9 0 18%,#ffd36d 32%,#ff9b52 62%,transparent 70%);filter:drop-shadow(0 0 9px #ffd66e);animation:flicker .38s infinite alternate;transform-origin:50% 100%}.flame:after{content:"";position:absolute;left:5px;top:7px;width:8px;height:15px;border-radius:50%;background:#fff8d2}.candle:before{content:"";position:absolute;left:5px;top:-5px;width:3px;height:7px;background:#49303e;border-radius:3px}.candle.glow{filter:drop-shadow(0 0 10px rgba(255,202,111,.65))}
+@keyframes flicker{to{transform:rotate(5deg) scale(.9);opacity:.8}}
+.off .flame{animation:blownOut .5s ease forwards}.off{opacity:.72;transition:.5s}
+.smoke{display:none;position:absolute;top:-42px;left:1px;width:12px;height:25px;border-radius:50%;border-left:3px solid #cfc5ce;opacity:.55}
+.off .smoke{display:block;animation:smoke 1.2s ease forwards}
+@keyframes blownOut{0%{opacity:1;transform:translateX(0) rotate(0) scale(1)}45%{opacity:.75;transform:translateX(-7px) rotate(-18deg) scale(.75)}100%{opacity:0;transform:translateX(-17px) rotate(-28deg) scale(.05)}}
+@keyframes smoke{to{transform:translate(12px,-52px) scale(1.5);opacity:0}}
+.wind{position:absolute;width:110px;height:42px;left:50%;top:47%;transform:translate(-50%,-50%);pointer-events:none;opacity:0}.wind i{position:absolute;width:55px;height:2px;background:linear-gradient(90deg,transparent,#fff8f2,transparent);border-radius:99px}.wind i:nth-child(1){top:8px;left:0}.wind i:nth-child(2){top:20px;left:18px;width:70px}.wind i:nth-child(3){top:31px;left:4px;width:45px}.wind.show{animation:wind .8s ease forwards}@keyframes wind{0%{opacity:0;transform:translate(-42%,-50%) scale(.5)}25%{opacity:.8}100%{opacity:0;transform:translate(-62%,-50%) scale(1.3)}}
+.topper{position:absolute;bottom:193px;left:50%;transform:translateX(-50%);font-family:'Cormorant Garamond';font-size:28px;color:var(--gold);white-space:nowrap}
+/* letter */
+.envelope{width:270px;height:175px;margin:25px auto 20px;position:relative;cursor:pointer;perspective:700px}
+.env-body{position:absolute;inset:0;background:#f6dfe6;border-radius:12px;box-shadow:0 20px 45px #0004}
+.env-flap{position:absolute;left:0;top:0;border-left:135px solid transparent;border-right:135px solid transparent;border-top:105px solid #e5b8c8;transform-origin:top;transition:.7s;z-index:2}
+.env-note{position:absolute;left:20px;right:20px;bottom:18px;height:105px;background:#fffaf4;color:#4a3745;border-radius:8px;padding:17px;font-family:'Cormorant Garamond';font-size:20px;z-index:1;transition:.7s}
+.envelope.open .env-flap{transform:rotateX(180deg);z-index:0}
+.envelope.open .env-note{transform:translateY(-75px);z-index:3;box-shadow:0 12px 30px #0002}
+/* secrets */
+.secrets{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:25px 0}
+.secret{padding:18px;border-radius:20px;text-align:left;background:rgba(255,244,249,.72);border:1px solid rgba(214,113,153,.12);opacity:0;transform:translateY(15px);transition:.6s}
+.page.active .secret{opacity:1;transform:none}.page.active .secret:nth-child(2){transition-delay:.12s}.page.active .secret:nth-child(3){transition-delay:.24s}.page.active .secret:nth-child(4){transition-delay:.36s}
+.secret b{display:block;color:#cf5e8b;margin-bottom:5px}.secret small{color:#775b6a;line-height:1.5}
+/* typewriter */
+.letter{max-width:610px;margin:25px auto;padding:27px;text-align:left;border-radius:22px;background:#fff8f0;color:#493746;box-shadow:0 25px 60px #0004;font-family:'Cormorant Garamond',serif;font-size:25px;line-height:1.4}
+.cursor{border-right:2px solid #a45b78;animation:blink .7s infinite}@keyframes blink{50%{border-color:transparent}}
+.final-ring{width:170px;height:170px;border:1px solid rgba(233,200,137,.35);border-radius:50%;margin:0 auto 25px;display:flex;align-items:center;justify-content:center;animation:ring 4s linear infinite}
+@keyframes ring{to{transform:rotate(360deg)}}.final-ring span{font-family:'Cormorant Garamond';font-size:32px;color:var(--gold);animation:ring 4s linear infinite reverse}
+#confetti{position:fixed;inset:0;pointer-events:none;overflow:hidden}
+.conf{position:absolute;width:7px;height:12px;top:-20px;animation:fall 3s linear forwards}
+@keyframes fall{to{transform:translateY(110vh) rotate(720deg);opacity:0}}
+@media(max-width:600px){.panel{padding:28px 18px}.secrets{grid-template-columns:1fr}.cake-area{height:300px}.letter{font-size:22px}}
+
+.panel{position:relative}.panel>*:not(.sticker-layer){position:relative;z-index:4}
+</style>
+</head>
+<body>
+<div id="heartBg"></div><div id="confetti"></div>
+
+<section class="page active" id="p1"><div class="panel"><div class="sticker-layer">
+<img class="cat-sticker s1" src="CATDATA1" alt="cute cat sticker">
+<img class="cat-sticker s2" src="CATDATA2" alt="cute cat sticker">
+<img class="cat-sticker s3" src="CATDATA3" alt="cute cat sticker">
+<img class="cat-sticker s4" src="CATDATA4" alt="cute cat sticker">
+</div>
+<div class="kicker">09 • 10 • a very important day</div>
+<h1><span class="name">Bauniii</span> 🎀</h1>
+<p class="sub">pssst... bauniii 👀<br>Someone has been secretly preparing something for you.</p>
+<button class="btn pulse-btn" onclick="show(2)">🎀 okayyy… press me 👀 <span class="arrow">→</span></button>
+<div class="mini">warning: thori si bakwas included 😭</div>
+</div></section>
+
+<section class="page" id="p2"><div class="panel"><div class="sticker-layer">
+<img class="cat-sticker s1" src="CATDATA1" alt="cute cat sticker">
+<img class="cat-sticker s2" src="CATDATA2" alt="cute cat sticker">
+<img class="cat-sticker s3" src="CATDATA3" alt="cute cat sticker">
+<img class="cat-sticker s4" src="CATDATA4" alt="cute cat sticker">
+</div>
+<div class="kicker">chapter one</div><h2>Make a wish ✨</h2>
+<div class="cake-area"><div class="cake">
+<div class="plate"></div><div class="tier bottom"><div class="icing"><i class="drip d1"></i><i class="drip d2"></i><i class="drip d3"></i></div></div>
+<div class="tier middle"><div class="icing"></div></div><div class="tier top"><div class="icing"></div><i class="berry b1"></i><i class="berry b2"></i><i class="berry b3"></i></div>
+<div class="candle c1"><i class="flame"></i><i class="smoke"></i></div><div class="candle c2"><i class="flame"></i><i class="smoke"></i></div><div class="candle c3"><i class="flame"></i><i class="smoke"></i></div>
+<div class="topper">Bauniii</div></div><div class="wind" id="wind"><i></i><i></i><i></i></div></div>
+<button class="btn pulse-btn" id="blow" onclick="blow()">💨 okay bauniii… BLOW IT 😭 <span class="arrow">→</span></button>
+<p class="mini" id="wishhint">close your eyes for dramatic effect 👀</p>
+</div></section>
+
+<section class="page" id="p3"><div class="panel"><div class="sticker-layer">
+<img class="cat-sticker s1" src="CATDATA1" alt="cute cat sticker">
+<img class="cat-sticker s2" src="CATDATA2" alt="cute cat sticker">
+<img class="cat-sticker s3" src="CATDATA3" alt="cute cat sticker">
+<img class="cat-sticker s4" src="CATDATA4" alt="cute cat sticker">
+</div>
+<div class="kicker">chapter two</div><h2>Wait... there's a letter 💌</h2>
+<p class="sub">Obviously I couldn't just say happy birthday and leave. 🙄</p>
+<div class="envelope" id="env" onclick="openLetter()"><div class="env-body"></div><div class="env-flap"></div><div class="env-note">for my favourite badmosh<br>♡ bauniii</div></div>
+<p class="mini">tap the envelope</p>
+</div></section>
+
+<section class="page" id="p4"><div class="panel"><div class="sticker-layer">
+<img class="cat-sticker s1" src="CATDATA1" alt="cute cat sticker">
+<img class="cat-sticker s2" src="CATDATA2" alt="cute cat sticker">
+<img class="cat-sticker s3" src="CATDATA3" alt="cute cat sticker">
+<img class="cat-sticker s4" src="CATDATA4" alt="cute cat sticker">
+</div>
+<div class="kicker">things i'll never admit normally</div><h2>Bauniii, sun 👀</h2>
+<div class="secrets">
+<div class="secret"><b>01 — you're annoying.</b><small>But somehow I still come back to argue. 😭</small></div>
+<div class="secret"><b>02 — sautan btw.</b><small>Waise ye title tune khud earn kiya hai.</small></div>
+<div class="secret"><b>03 — bakwas unlimited.</b><small>Random conversations with you never get boring.</small></div>
+<div class="secret"><b>04 — you matter.</b><small>Even when I don't say it properly, you genuinely do.</small></div>
+</div>
+<button class="btn" onclick="show(5)">😭 okayyy stop exposing me <span class="arrow">→</span></button>
+</div></section>
+
+<section class="page" id="p5"><div class="panel"><div class="sticker-layer">
+<img class="cat-sticker s1" src="CATDATA1" alt="cute cat sticker">
+<img class="cat-sticker s2" src="CATDATA2" alt="cute cat sticker">
+<img class="cat-sticker s3" src="CATDATA3" alt="cute cat sticker">
+<img class="cat-sticker s4" src="CATDATA4" alt="cute cat sticker">
+</div>
+<div class="kicker">the actual message</div><h2>From moi, to you 🫶</h2>
+<div class="letter"><span id="typed"></span><span class="cursor">&nbsp;</span></div>
+<button class="btn pulse-btn" id="nextAfterType" onclick="show(6)" style="display:none">👀 okayyy… one last thing <span class="arrow">→</span></button>
+</div></section>
+
+<section class="page" id="p6"><div class="panel"><div class="sticker-layer">
+<img class="cat-sticker s1" src="CATDATA1" alt="cute cat sticker">
+<img class="cat-sticker s2" src="CATDATA2" alt="cute cat sticker">
+<img class="cat-sticker s3" src="CATDATA3" alt="cute cat sticker">
+<img class="cat-sticker s4" src="CATDATA4" alt="cute cat sticker">
+</div>
+<div class="final-ring"><span>09<br>♡<br>10</span></div>
+<div class="kicker">and finally...</div>
+<h2>Happy Birthday, Bauniii 🎀</h2>
+<p class="sub">I hope kutti tujhe acha laga hoga 🥲👉👈<br><br>
+Bssss happy birthday to youuu. Meri trf se I wish acha laga ho mera wish 🥲👉👈<br>
+Baki Bauni hamesha larta rhonga tujhse, which is moi love language 😭😂<br>
+Aur sautan waise hei h tu meri btw — sautan, happy birthday to you 😭🫶</p>
+<p class="mini">ab ja birthday enjoy kar, warna kal se phir larai. 😭</p>
+</div></section>
+
+<script>
+const pages=[...document.querySelectorAll('.page')];
+function show(n){pages.forEach((p,i)=>p.classList.toggle('active',i===n-1)); if(n===6)confetti(); if(n===5)typeLetter();}
+function blow(){
+  const wind=document.getElementById('wind');
+  wind.classList.remove('show'); void wind.offsetWidth; wind.classList.add('show');
+  const candles=[...document.querySelectorAll('.candle')];
+  candles.forEach(c=>c.classList.add('glow'));
+  candles.forEach((c,i)=>setTimeout(()=>c.classList.add('off'),260+i*180));
+  const b=document.getElementById('blow');
+  b.textContent='✨ WISH SENT… PLEASE WORK 😭';
+  document.getElementById('wishhint').textContent='*dramatically blows away the candles* 💨';
+  setTimeout(()=>show(3),1800);
+}
+function openLetter(){
+  const e=document.getElementById('env'); e.classList.add('open');
+  setTimeout(()=>show(4),1050);
+}
+const message=`Awwwww dekhoooo to kiskaaaaaa appy baldy hhhhh 👀👀👀 ahmmmm ahmmmm
+
+Bauni kaaa bauniiii badmoshhh apy birthday toooo you so muchhhh 😭🫶
+
+I wishhhh tu hamesha happy rhe yr. Like idk my efforts enough h bhi ya nai, like I don't even know mein apki priority list mein bhi ata hon ya nai 🥲
+
+Bssss happy birthday to youuu meri trf se. Baki Bauni hamesha larta rhonga tujhse, which is moi love language 😭😂
+
+Aur sautan waise hei h tu meri btw.`;
+
+let typedOnce=false;
+function typeLetter(){
+ if(typedOnce)return; typedOnce=true;
+ const el=document.getElementById('typed'), btn=document.getElementById('nextAfterType');
+ let i=0;
+ function tick(){el.textContent=message.slice(0,i++); if(i<=message.length)setTimeout(tick,22);else btn.style.display='inline-block';}
+ tick();
+}
+function confetti(){
+ const box=document.getElementById('confetti');
+ for(let i=0;i<90;i++){const c=document.createElement('i');c.className='conf';c.style.left=Math.random()*100+'%';c.style.animationDelay=Math.random()*.9+'s';c.style.transform=`rotate(${Math.random()*180}deg)`;c.style.background=['#f3a4bf','#db6e9b','#ffd7e5','#f8b8ce'][i%4];box.appendChild(c);setTimeout(()=>c.remove(),4200)}
+}
+const heartBg=document.getElementById('heartBg'); for(let r=0;r<9;r++){const row=document.createElement('div');row.className='heartRow';row.style.transform=`translateX(${r%2?'-14px':'0px'})`;for(let i=0;i<15;i++){const h=document.createElement('span');h.className='heart '+(Math.random()>.5?'a':'b');h.textContent='♡';h.style.animationDelay=(Math.random()*2.5)+'s';row.appendChild(h)}heartBg.appendChild(row)}
+</script>
+</body>
+</html>
